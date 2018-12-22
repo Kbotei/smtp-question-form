@@ -1,0 +1,82 @@
+body {
+	font-size: 100%;
+	color: #000000;
+	background-color: #9ddFFF;
+}
+
+div.table {
+	border: 1px solid #ccc;
+	margin: 0px auto;
+	padding: 5px; 
+	width:375px;
+	background-color: rgb(246, 246, 246);
+}
+
+div.row {
+  clear: both;
+  padding-top: 10px;
+  padding-left:10px;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  padding: 4px;
+}
+
+html>div.row {
+	voice-family: inherit;
+	padding: 4px;
+}
+
+/* Hide from IE Mac \*/
+* html div.row {
+  padding-left:10px;
+}
+/* End Hiding */
+
+div.row span.header {
+	font-size: 1.1em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dotted rgb(102, 102, 102);
+}
+
+div.row span.label {
+  float: left;
+  width: auto;
+  text-align: left;
+  font-size: 0.9em;
+  padding-left:10px;
+}
+
+div.row span.formw {
+  float: left;
+  width: 270px;
+  padding-left:10px;
+  text-align: left;
+} 
+  
+div.row div.label {
+  width: auto;
+  text-align: left;
+  font-size: 0.9em;
+  padding-left:10px;
+}
+
+div.row div.formw {  
+  width: 300px;
+  text-align: left;
+} 
+
+div.row div.footer {
+	width:100%;
+}
+  
+div.spacer {
+  clear: both;
+}
+
+  
+input,textarea, select {
+	color : #000000;
+	background-color : #FFFFFF;
+	border: 1px solid #ccc;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
